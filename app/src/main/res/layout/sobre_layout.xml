@@ -6,31 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".SobreActivity">
 
-  <ScrollView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-      android:orientation="vertical" >
-  <ImageView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:src="@drawable/lua" />
+        android:orientation="vertical">
 
-  <TextView
-        android:shadowDx="12"
-        android:shadowDy="12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center|bottom"
-        android:shadowColor="#FFA000"
-        android:shadowRadius="30"
-        android:text="Lua"
-        android:textColor="#000"
-        android:textSize="50sp"
-        android:textStyle="bold" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lua" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:shadowColor="#FFA000"
+            android:shadowDx="12"
+            android:shadowDy="12"
+            android:shadowRadius="30"
+            android:text="Lua"
+            android:textColor="#000"
+            android:textSize="50sp"
+            android:textStyle="bold" />
     </LinearLayout>
-  </ScrollView>
-</FrameLayout>
+</ScrollView></FrameLayout>
